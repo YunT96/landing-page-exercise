@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10% 10px 10%;
+    background-color: #1f2937;
+}
+
+.header-left{
+    color: #f9faf8;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
